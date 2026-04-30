@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-Designed and implemented an end-to-end data pipeline using **AWS S3** and **Databricks**, following the **Medallion Architecture (Bronze–Silver–Gold)** to enable scalable, automated, and reliable data processing.
+Designed and implemented an end-to-end **ELT data pipeline** using **AWS S3** and **Databricks**, following the **Medallion Architecture (Bronze–Silver–Gold)** to enable scalable, automated, and reliable data processing.
 
 The pipeline is event-driven: whenever new CSV files are uploaded to S3, the system automatically triggers a Databricks job to ingest, transform, and deliver analytics-ready data.
 
@@ -22,14 +22,14 @@ The pipeline is event-driven: whenever new CSV files are uploaded to S3, the sys
 ## 🔄 Automation & Orchestration
 
 - Configured Databricks Jobs to **auto-trigger pipeline execution** upon new file arrival in S3
-- Achieved **fully automated, event-driven ETL workflow**
+- Achieved **fully automated, event-driven ELT workflow**
 - Reduced manual intervention and improved data freshness
 
 ## 🧰 Tech Stack
 
 - **Cloud Storage**: AWS S3 (AWS Free Tier)
 - **Data Platform**: Databricks (Free Edition)
-- **Processing**: ETL Pipelines, Data Cleaning, Aggregation
+- **Processing**: ELT Pipelines, Data Cleaning, Aggregation
 - **Orchestration**: Databricks Jobs
 
 ## 💡 Key Highlights
@@ -41,12 +41,12 @@ The pipeline is event-driven: whenever new CSV files are uploaded to S3, the sys
 
 ## 📌 Dataset Source
 
-**ETL Pipeline Workflow.ipynb**
+**ELT Pipeline Workflow.ipynb**
 
-Integrates the complete end-to-end Medallion ETL code across Bronze, Silver and Gold layers.
+Integrates the complete end-to-end Medallion ELT code across Bronze, Silver and Gold layers.
 
 ## 👤 Author - Zixuan Zhang
 
-This portfolio project demonstrates my proficiency in designing and building automated ETL pipelines with Databricks — a core skill set essential for Data Analyst and Data Engineering roles.
+This portfolio project demonstrates my proficiency in designing and building automated ELT pipelines with Databricks — a core skill set essential for Data Analyst and Data Engineering roles.
 
 - **LinkedIn**: [My Professional Profile](https://www.linkedin.com/in/zixuan-zhang-78ba38274)
